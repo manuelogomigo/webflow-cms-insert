@@ -26,7 +26,7 @@ function insertElement() {
 // Options for the Intersection Observer
 const observerOptions = {
   root: parentElement,
-  threshold: 0.5 // Adjust this threshold as needed
+  threshold: 5 // Adjust this threshold as needed
 };
 
 // Create an Intersection Observer to track the element's visibility
